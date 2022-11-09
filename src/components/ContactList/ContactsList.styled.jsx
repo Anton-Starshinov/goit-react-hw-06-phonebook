@@ -25,3 +25,11 @@ export const ButtonList = styled.button`
   color: black;
   font-weight: bold;
 `;
+
+export const ItemBox = styled.div`
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+`;
